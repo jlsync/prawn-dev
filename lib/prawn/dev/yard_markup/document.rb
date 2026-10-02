@@ -20,9 +20,9 @@ module Prawn
             end
         end
 
-        def stream(tokens, &block)
+        def stream(tokens, &)
           yield %(<pre><code>) unless @opts[:inline]
-          @formatter.stream(tokens, &block)
+          @formatter.stream(tokens, &)
           yield '</code></pre>' unless @opts[:inline]
         end
       end
