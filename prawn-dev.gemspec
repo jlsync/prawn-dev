@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = 'Shared tools for Prawn projects development'
   spec.homepage = 'https://prawnpdf.org/'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 2.7.0'
+  spec.required_ruby_version = '>= 3.3.0'
   spec.required_rubygems_version = '>= 2.0'
 
   spec.cert_chain = ['certs/pointlessone.pem']
@@ -30,12 +30,12 @@ Gem::Specification.new do |spec|
   spec.add_dependency('kramdown', '~> 2.4')
   spec.add_dependency('kramdown-parser-gfm', '~> 1.1')
   spec.add_dependency('rake', '~> 13.0')
-  spec.add_dependency('rouge', '~> 4.2')
+  spec.add_dependency('rouge', '~> 5.1')
   spec.add_dependency('rspec', '~> 3.12')
-  spec.add_dependency('rubocop', '~> 1.84.0')
-  spec.add_dependency('rubocop-performance', '~> 1.26.1')
-  spec.add_dependency('rubocop-rspec', '~> 3.9.0')
-  spec.add_dependency('simplecov', '~> 0.22.0')
-  spec.add_dependency('webrick', '~> 1.8.1')
+  spec.add_dependency('rubocop', '~> 1.91.0')
+  spec.add_dependency('rubocop-performance', '~> 1.27.0')
+  spec.add_dependency('rubocop-rspec', '~> 3.10.0')
+  spec.add_dependency('simplecov', '~> 1.3')
+  spec.add_dependency('webrick', '~> 1.9.2')
   spec.add_dependency('yard', '~> 0.9.38')
 end
